@@ -1,0 +1,39 @@
+name: yks_asistani_v4
+description: Bayburt YKS Takip ve Asistan Uygulamasi
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # İkonlar
+  cupertino_icons: ^1.0.6
+  
+  # Kamera ve Galeri erişimi için (Soru çözümü)
+  image_picker: ^1.1.0
+  
+  # Yapay Zeka (Gemini) ile iletişim için (Firebase yerine bunu kullanıyoruz)
+  http: ^1.2.1
+  
+  # Tarih ve saat işlemleri için
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Lint kuralları kod kalitesini artırır
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # --- DÜZELTME BURADA ---
+  # Assets klasörünüz olmadığı için aşağıdaki satırların başında # işareti olmalı.
+  # Eğer bu işaretleri kaldırırsanız uygulama "assets klasörü yok" diye hata verir.
+  
+  # assets:
+  #   - assets/
