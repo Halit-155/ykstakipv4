@@ -1014,7 +1014,8 @@ class GeminiServisi {
   // --- PROGRAM OLUŞTURMA İÇİN YENİ METOT ---
   static Future<List<Gorev>> programOlustur(String sinif, String alan,
       String stil, int gunlukSaat, String zayifDersler) async {
-    if (_apiKey.isEmpty || _apiKey == "BURAYA_API_KEY_YAZIN") return [];
+    if (_apiKey.isEmpty || _apiKey == "AIzaSyDR2SXYCEX7VyIHLjcIVhzSDX3NpErAVDU")
+      return [];
 
     // AI'a gönderilecek detaylı prompt
     String prompt = """
